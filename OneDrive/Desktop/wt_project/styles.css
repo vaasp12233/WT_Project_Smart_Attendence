@@ -1,0 +1,52 @@
+            *{
+                margin: 0;
+                padding: 0;
+                border: 0;
+                box-sizing: border-box;
+            }
+            :root{
+                --color-dark: #272626;
+                --color-light: #ffffff;
+            }
+            .dark-mode{
+                background-color: var(--color-dark);
+                color: var(--color-light);
+                nav{
+                    filter:invert(100%);
+                }
+                main div ,footer,header{
+                    background-color: hwb(0 8% 89%);
+                }   
+                
+            }  
+            body{
+                font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+                background-color:pink;
+                color: black;
+                
+            }
+            main div{
+                background-color: red;
+            }
+            #div_main_header{
+                background-color: white; 
+                height: 50px;
+                width: auto;
+                
+            }
+            .button_top{
+                background-color: hsl(0, 30%, 96%) ;
+                cursor: pointer;
+                height: 32px;
+                width: 32px;
+                border-radius: 50%;
+            }
+            #div_main_sign_in{
+                float: right;
+                align-items: center;
+                justify-content: center;
+                margin-top:10px;
+                height: 36px;
+                width: 198px;
+            } 
+             
